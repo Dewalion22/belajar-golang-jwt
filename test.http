@@ -1,0 +1,17 @@
+package main
+
+### Get all categories
+GET http://localhost:8000/api/user
+X-API-Key: secret
+Accept: application/json
+
+### Create new category
+POST http://localhost:8000/api/register
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name" : "fadel",
+  "email" : "fad@insert.com",
+  "password" : "123456"
+}
